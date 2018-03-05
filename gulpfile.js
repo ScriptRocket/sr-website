@@ -108,21 +108,11 @@ gulp.task('browserSync', function() {
   })
 })
 
-gulp.task('images', function(){
-  return gulp.src('images/**/*.+(png|jpg|jpeg|gif|svg)')
-  // Caching images that ran through imagemin
-  .pipe(cache(imagemin({
-      interlaced: true
-    })))
-  .pipe(gulp.dest('./images/design'))
-})
-
 // Dev task with browserSync
-gulp.task('izhar', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
+gulp.task('sr', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
   gulp.watch('scss/*.scss', ['sass']);
   gulp.watch('css/*.css', ['minify-css']);
   gulp.watch('js/*.js', ['minify-js']);
-  gulp.watch(config.src.images,['images']);
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('*.html', browserSync.reload);
   gulp.watch('js/**/*.js', browserSync.reload);
