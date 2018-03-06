@@ -1,14 +1,15 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
-var header = require('gulp-header');
-var cleanCSS = require('gulp-clean-css');
-var rename = require("gulp-rename");
-var uglify = require('gulp-uglify');
-var filter = require('gulp-filter');
-var pkg = require('./package.json');
-var imagemin = require('gulp-imagemin');
-var cache = require('gulp-cache');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const browserSync = require('browser-sync').create();
+const header = require('gulp-header');
+const cleanCSS = require('gulp-clean-css');
+const rename = require("gulp-rename");
+const uglify = require('gulp-uglify');
+const gutil = require('gulp-util');
+const filter = require('gulp-filter');
+const pkg = require('./package.json');
+const imagemin = require('gulp-imagemin');
+const cache = require('gulp-cache');
 
 
 // Set the banner content
@@ -52,6 +53,7 @@ gulp.task('minify-css', ['sass'], function() {
 gulp.task('minify-js', function() {
   return gulp.src('js/freelancer.js')
     .pipe(uglify())
+    .on('error', gutil.log)
     .pipe(header(banner, {
       pkg: pkg
     }))
