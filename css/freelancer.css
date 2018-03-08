@@ -129,43 +129,55 @@ section {
       font-size: 1.5em; } }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem; }
+  padding-top: calc(300px + 2rem);
+  padding-bottom: 5rem;
+  height: 100vh; }
   header.masthead h1 {
-    font-size: 3rem;
-    line-height: 3rem; }
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px; }
   header.masthead h2 {
-    font-size: 1.3rem;
-    font-family: 'Lato'; }
-
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem; }
-    header.masthead h1 {
-      font-size: 4.75em;
-      line-height: 4rem; }
-    header.masthead h2 {
-      font-size: 1.75em; } }
+    font-size: 2rem;
+    font-family: 'Lato';
+    display: inline;
+    position: relative;
+    top: -2px; }
+  header.masthead img {
+    height: 400px; }
+  @media (min-width: 992px) {
+    header.masthead header.masthead {
+      height: 50vh; } }
+  @media (min-width: 300px) and (max-width: 780px) {
+    header.masthead img {
+      height: 50vh; } }
 
 .portfolio {
-  margin-bottom: -15px; }
+  margin-bottom: -15px;
+  margin-top: -60px; }
   @media (min-width: 576px) {
     .portfolio {
       margin-bottom: -30px; }
       .portfolio .portfolio-item {
         margin-bottom: 30px; }
       .portfolio .row:nth-child(2) {
-        margin-top: -45px; } }
+        margin-top: 10px; } }
   .portfolio .img-fluid {
     border-radius: 50%;
-    margin-top: 10px; }
+    margin-top: 10px;
+    width: 250px;
+    height: auto; }
+  @media (min-width: 980px) {
+    .portfolio .img-fluid {
+      width: 340px; } }
   .portfolio p {
     font-family: "Calibri";
     font-size: 18px;
     margin-top: 15px; }
   .portfolio h2 {
     font-family: "Calibri"; }
+  .portfolio .container {
+    padding-right: 20px;
+    padding-left: 20px; }
 
 .floating-label-form-group {
   position: relative;

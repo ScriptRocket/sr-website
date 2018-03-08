@@ -1,26 +1,33 @@
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  //padding-top: calc(6rem + 72px);
+  padding-top: calc(300px + 2rem);
+  padding-bottom: 5rem;
+  height: 100vh;
+
   h1 {
-    font-size: 3rem;
-    line-height: 3rem;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     @include body-font;
+    display: inline;
+    position: relative;
+    top: -2px;
   }
-}
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;
-    h1 {
-      font-size: 4.75em;
-      line-height: 4rem;
+  img{
+    height: 400px;
+  }
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 50vh;
     }
-    h2 {
-      font-size: 1.75em;
-    }
-
+  }
+  
+    @media (min-width: 300px) and (max-width: 780px) {
+      img{
+        height: 50vh;
+      }   
   }
 }
