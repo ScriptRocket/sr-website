@@ -80,6 +80,11 @@ section {
     background-color: rgba(33, 37, 41, 0.5);
     line-height: 3.1rem; }
 
+p {
+  text-align: left;
+  margin-left: 25px;
+  font-family: "Lato"; }
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
