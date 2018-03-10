@@ -80,10 +80,24 @@ section {
     background-color: rgba(33, 37, 41, 0.5);
     line-height: 3.1rem; }
 
-p {
+.about .img-fluid {
+  border-radius: 50%;
+  max-width: 70%;
+  margin-top: 10px;
+  width: 250px;
+  height: auto; }
+
+@media (min-width: 980px) {
+  .about .img-fluid {
+    width: 340px; } }
+
+.about p {
   text-align: left;
   margin-left: 25px;
   font-family: "Lato"; }
+
+.about h3 {
+  padding-top: 2rem; }
 
 #mainNav {
   padding-top: 1rem;
@@ -168,6 +182,7 @@ header.masthead {
         margin-top: 10px; } }
   .portfolio .img-fluid {
     border-radius: 50%;
+    max-width: 75%;
     margin-top: 10px;
     width: 250px;
     height: auto; }
@@ -183,6 +198,10 @@ header.masthead {
   .portfolio .container {
     padding-right: 20px;
     padding-left: 20px; }
+  .portfolio .row-container {
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto; }
 
 .floating-label-form-group {
   position: relative;
