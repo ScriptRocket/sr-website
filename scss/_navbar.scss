@@ -37,7 +37,7 @@
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.0);
     .navbar-brand {
       font-size: 2em;
       -webkit-transition: font-size 0.3s;
@@ -68,6 +68,7 @@
     .navbar-brand {
       font-size: 1.5em;
       color:black;
+      width: 25%;
     }
   }
 }

@@ -128,7 +128,7 @@ section {
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-    background-color: rgba(0, 0, 0, 0.1); }
+    background-color: transparent; }
     #mainNav .navbar-brand {
       font-size: 2em;
       -webkit-transition: font-size 0.3s;
@@ -146,7 +146,8 @@ section {
     color: black; }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em;
-      color: black; } }
+      color: black;
+      width: 25%; } }
 
 header.masthead {
   padding-top: calc(300px + 2rem);
@@ -294,14 +295,14 @@ a {
 .project {
   width: 100%;
   height: 10px;
-  filter: blur(3px); }
+  filter: blur(2px); }
   .project:nth-of-type(1) {
-    background: url("../img/bg-image.jpeg");
+    background: url("https://images.pexels.com/photos/305535/pexels-photo-305535.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
   .project:nth-of-type(2) {
-    background: url("../img/bg-image.jpeg");
+    background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -310,3 +311,8 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
+
+#header {
+  background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-repeat: no-repeat;
+  background-size: cover; }
