@@ -13,14 +13,14 @@
       a.nav-link {
         color: $white;
         &:hover {
-          color: $primary;
+          color: $black;
         }
         &:active,
         &:focus {
           color: $white;
         }
         &.active {
-          color: $primary;
+          color: rgba(0,0,0,0.4);
         }
       }
     }
@@ -37,6 +37,7 @@
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
+    background-color: rgba(0,0,0,0.0);
     .navbar-brand {
       font-size: 2em;
       -webkit-transition: font-size 0.3s;
@@ -45,23 +46,29 @@
     }
     .navbar-nav {
       margin-top: 0;
+      color: black;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $white;
-      background: $primary;
-      &:active,
-      &:focus,
-      &:hover {
-        color: $white;
-        background: $primary;
-      }
+      color: black;
+      // background: rgba(0,0,0,0.3);
+      // &:active,
+      // &:focus,
+      // &:hover
+      //  {
+        // color: $white;
+        // background: rgba(0,0,0,0.5);
+      // }
     }
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    background-color: rgba(0,0,0,0.2);
+    color: black;
     .navbar-brand {
       font-size: 1.5em;
+      color:black;
+      width: 25%;
     }
   }
 }

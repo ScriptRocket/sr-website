@@ -1,0 +1,25 @@
+
+.about{
+    .img-fluid{
+        border-radius: 50%;
+        max-width: 70%;
+        margin-top: 10px;
+        width: 250px;
+        height: auto;
+      }
+        @media (min-width: 980px){
+          .img-fluid{
+            width: 340px;
+          }
+        } 
+
+        p{
+            text-align: left;
+            margin-left: 25px;
+            font-family: $font-style;
+        }
+
+        h3{
+            padding-top: 2rem;
+        }
+}
