@@ -1,26 +1,40 @@
 // Styling for the navbar
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
   @include heading-font;
+  background-color: rgba(0,0,0,.4);
   .navbar-brand {
-    color: $white;
+    color: $black;
+  }
+  img{
+    width: 150px;
+    margin: -5px 20px 0 20px;
+  }
+  #logo-shrink{
+    width: 100px;
+  }
+  .hidden{
+    display: none;
   }
   .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
+    margin: 0 auto;
     li.nav-item {
       a.nav-link {
-        color: $white;
+        color:$white;
         &:hover {
-          color: $black;
+          color: $white;
+          background-color: #d3d3d3;
         }
         &:active,
         &:focus {
-          color: $white;
+          color:$white;
         }
         &.active {
-          color: rgba(0,0,0,0.4);
+          color: $white;
         }
       }
     }
@@ -46,29 +60,42 @@
     }
     .navbar-nav {
       margin-top: 0;
-      color: black;
+      color: $white;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: black;
-      // background: rgba(0,0,0,0.3);
-      // &:active,
-      // &:focus,
-      // &:hover
-      //  {
-        // color: $white;
-        // background: rgba(0,0,0,0.5);
-      // }
+      color: $white;
+       background: rgba(0,0,0,0.3);
+        &:active,
+       &:focus,
+       &:hover
+        {
+        color: $white;
+         background: rgba(0,0,0,0.5);
+       }
     }
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: rgba(0,0,0,0.2);
-    color: black;
+    background-color: rgba(255,255,255,.9);
+    
     .navbar-brand {
-      font-size: 1.5em;
-      color:black;
+      font-size: 1em;
+      color: $white;
       width: 25%;
+    }
+    a.nav-link {
+      color: $black !important;
+      &:hover {
+        color:$white;
+      }
+      &:active,
+      &:focus {
+        color: $white;
+      }
+      &.active {
+        color: $white !important;
+      }
     }
   }
 }

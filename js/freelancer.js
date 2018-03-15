@@ -15,14 +15,18 @@
     }
   });
 
+
   // Scroll to top button appear
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
     if (scrollDistance > 100) {
       $('.scroll-to-top').fadeIn();
+      
     } else {
       $('.scroll-to-top').fadeOut();
+      
     }
+    
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
@@ -36,18 +40,34 @@
     offset: 80
   });
 
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
+ var toggleLogo = function (){
+    var browserWidth = window.innerWidth;
+    if(browserWidth < 992){
+      $("#logo-shrink").removeClass('hidden');
+      $("#logo-expand").addClass('hidden');
+    }
+    else{
+      $("#logo-shrink").addClass('hidden');
+      $("#logo-expand").removeClass('hidden');
     }
   };
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    var scrollDistance = $(this).scrollTop();
+    var browserHeight = window.innerHeight
+    if ($("#mainNav").offset().top > browserHeight -30) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");   
+    }
+  };
+  toggleLogo();
   // Collapse now if page is not at top
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+  $(window).resize(toggleLogo);
 
   // Modal popup$(function () {
  /* $('.portfolio-item').magnificPopup({
