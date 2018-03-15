@@ -121,8 +121,7 @@ section {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #fff;
-        background-color: #d3d3d3; }
+        color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -148,17 +147,17 @@ section {
       margin-top: 0;
       color: #fff; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fff;
-      background: rgba(0, 0, 0, 0.3); }
+      color: black;
+      font-size: 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: #fff;
-        background: rgba(0, 0, 0, 0.5); }
+        color: black; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: rgba(255, 255, 255, 0.9); }
+    background-color: white;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.15); }
     #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1em;
+      font-size: 1rem;
       color: #fff;
       width: 25%; }
     #mainNav.navbar-shrink a.nav-link {
@@ -166,9 +165,9 @@ section {
       #mainNav.navbar-shrink a.nav-link:hover {
         color: #fff; }
       #mainNav.navbar-shrink a.nav-link:active, #mainNav.navbar-shrink a.nav-link:focus {
-        color: #fff; }
+        color: black; }
       #mainNav.navbar-shrink a.nav-link.active {
-        color: #fff !important; } }
+        color: #d33939 !important; } }
 
 header.masthead {
   padding-top: calc(300px + 2rem);
@@ -194,11 +193,10 @@ header.masthead {
       height: 50vh; } }
 
 .portfolio {
-  margin-bottom: -15px;
-  margin-top: -60px; }
+  margin-bottom: -15px; }
   @media (min-width: 576px) {
     .portfolio {
-      margin-bottom: -30px; }
+      margin-bottom: 30px; }
       .portfolio .portfolio-item {
         margin-bottom: 30px; }
       .portfolio .row:nth-child(2) {
@@ -211,7 +209,7 @@ header.masthead {
     height: auto; }
   @media (min-width: 980px) {
     .portfolio .img-fluid {
-      width: 340px; } }
+      width: 170px; } }
   .portfolio p {
     font-family: "Calibri";
     font-size: 18px;
@@ -315,23 +313,22 @@ a {
 
 .project {
   width: 100%;
-  height: 10px;
-  filter: blur(2px); }
+  height: 10px; }
   .project:nth-of-type(1) {
-    background: url("https://images.pexels.com/photos/305535/pexels-photo-305535.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background: url("../img/bg/wordpresstemp2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: bottom; }
   .project:nth-of-type(2) {
-    background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background: url("../img/bg/purple blur.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: bottom; }
   .project:nth-of-type(3) {
-    background: url("../img/bg-image.jpeg");
+    background: url("../img/bg/orange blur.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: bottom; }
 
 #header {
   background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
