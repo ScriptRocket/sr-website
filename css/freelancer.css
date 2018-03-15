@@ -102,14 +102,13 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Lato';
   background-color: rgba(0, 0, 0, 0.4); }
   #mainNav .navbar-brand {
     color: #000; }
   #mainNav img {
-    width: 150px;
-    margin: -5px 20px 0 20px; }
+    width: 120px;
+    margin: 5px 20px 0 20px; }
   #mainNav #logo-shrink {
     width: 100px; }
   #mainNav .hidden {
@@ -121,7 +120,7 @@ section {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #fff; }
+        color: black; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -163,7 +162,7 @@ section {
     #mainNav.navbar-shrink a.nav-link {
       color: #000 !important; }
       #mainNav.navbar-shrink a.nav-link:hover {
-        color: #fff; }
+        color: blue; }
       #mainNav.navbar-shrink a.nav-link:active, #mainNav.navbar-shrink a.nav-link:focus {
         color: black; }
       #mainNav.navbar-shrink a.nav-link.active {

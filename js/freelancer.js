@@ -13,7 +13,7 @@
         return false;
       }
     }
-  });
+  })
 
 
   // Scroll to top button appear

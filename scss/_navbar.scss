@@ -2,14 +2,14 @@
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  @include heading-font;
+  @include body-font;
   background-color: rgba(0,0,0,.4);
   .navbar-brand {
     color: $black;
   }
   img{
-    width: 150px;
-    margin: -5px 20px 0 20px;
+    width: 120px;
+    margin: 5px 20px 0 20px;
   }
   #logo-shrink{
     width: 100px;
@@ -25,7 +25,7 @@
       a.nav-link {
         color:$white;
         &:hover {
-          color: $white;
+          color: black;
           // background-color: #d3d3d3;
         }
         &:active,
@@ -86,7 +86,7 @@
     a.nav-link {
       color: $black !important;
       &:hover {
-        color: $white;
+        color: blue;
       }
       &:active,
       &:focus {
