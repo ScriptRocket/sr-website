@@ -329,6 +329,15 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom; }
+  .project img {
+    max-height: 200px;
+    margin-bottom: 40px; }
+  .project .work-content {
+    color: white;
+    padding-top: 50px; }
+    .project .work-content .text-content {
+      padding-top: 40px;
+      padding-right: 50px; }
 
 #header {
   background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
