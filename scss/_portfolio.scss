@@ -1,9 +1,9 @@
 // Styling for the portfolio section
 .portfolio {
   margin-bottom: -15px;
-  margin-top: -60px;
+  // margin-top: -60px;
     @media (min-width: 576px) {
-      margin-bottom: -30px;
+      margin-bottom: 30px;
       .portfolio-item {
         margin-bottom: 30px;
       }
@@ -21,7 +21,7 @@
   }
     @media (min-width: 980px){
       .img-fluid{
-        width: 340px;
+        width: 170px;
       }
     }
   

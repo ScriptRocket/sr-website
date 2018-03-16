@@ -102,21 +102,29 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
-  font-family: 'Montserrat'; }
+  font-family: 'Lato';
+  background-color: rgba(0, 0, 0, 0.4); }
   #mainNav .navbar-brand {
-    color: #fff; }
+    color: #000; }
+  #mainNav img {
+    width: 120px;
+    margin: 5px 20px 0 20px; }
+  #mainNav #logo-shrink {
+    width: 100px; }
+  #mainNav .hidden {
+    display: none; }
   #mainNav .navbar-nav {
     margin-top: 1rem;
-    letter-spacing: 0.0625rem; }
+    letter-spacing: 0.0625rem;
+    margin: 0 auto; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #000; }
+        color: black; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
-        color: rgba(0, 0, 0, 0.4); }
+        color: #fff; }
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
@@ -136,18 +144,29 @@ section {
       transition: font-size 0.3s; }
     #mainNav .navbar-nav {
       margin-top: 0;
-      color: black; }
+      color: #fff; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: black; }
+      color: black;
+      font-size: 1rem; }
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: black; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: black; }
+    background-color: white;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.15); }
     #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.5em;
-      color: black;
-      width: 25%; } }
+      font-size: 1rem;
+      color: #fff;
+      width: 25%; }
+    #mainNav.navbar-shrink a.nav-link {
+      color: #000 !important; }
+      #mainNav.navbar-shrink a.nav-link:hover {
+        color: blue; }
+      #mainNav.navbar-shrink a.nav-link:active, #mainNav.navbar-shrink a.nav-link:focus {
+        color: black; }
+      #mainNav.navbar-shrink a.nav-link.active {
+        color: #d33939 !important; } }
 
 header.masthead {
   padding-top: calc(300px + 2rem);
@@ -173,11 +192,10 @@ header.masthead {
       height: 50vh; } }
 
 .portfolio {
-  margin-bottom: -15px;
-  margin-top: -60px; }
+  margin-bottom: -15px; }
   @media (min-width: 576px) {
     .portfolio {
-      margin-bottom: -30px; }
+      margin-bottom: 30px; }
       .portfolio .portfolio-item {
         margin-bottom: 30px; }
       .portfolio .row:nth-child(2) {
@@ -190,7 +208,7 @@ header.masthead {
     height: auto; }
   @media (min-width: 980px) {
     .portfolio .img-fluid {
-      width: 340px; } }
+      width: 170px; } }
   .portfolio p {
     font-family: "Calibri";
     font-size: 18px;
@@ -263,6 +281,9 @@ a {
   a:focus, a:hover, a:active {
     color: #5182ac; }
 
+.container {
+  width: 100% !important; }
+
 .btn {
   border-width: 2px; }
 
@@ -294,23 +315,31 @@ a {
 
 .project {
   width: 100%;
-  height: 10px;
-  filter: blur(2px); }
+  height: 10px; }
   .project:nth-of-type(1) {
-    background: url("https://images.pexels.com/photos/305535/pexels-photo-305535.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background: url("../img/bg/wordpresstemp2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: bottom; }
   .project:nth-of-type(2) {
-    background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background: url("../img/bg/purple blur.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: bottom; }
   .project:nth-of-type(3) {
-    background: url("../img/bg-image.jpeg");
+    background: url("../img/bg/orange blur.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: bottom; }
+  .project img {
+    max-height: 200px;
+    margin-bottom: 40px; }
+  .project .work-content {
+    color: white;
+    padding-top: 50px; }
+    .project .work-content .text-content {
+      padding-top: 40px;
+      padding-right: 50px; }
 
 #header {
   background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");

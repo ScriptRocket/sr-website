@@ -1,23 +1,38 @@
-.project{
+        .project{
         width: 100%;
         height: 10px;
-        filter: blur(2px);
-
+        // filter: blur(2px);
+        // overflow: hidden;
+        //blurr images themselves?
         @mixin background-properties(){
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: center;
+                background-position: bottom;
         }
         &:nth-of-type(1){
-                background: url('https://images.pexels.com/photos/305535/pexels-photo-305535.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+                background: url('../img/bg/wordpresstemp2.png');
                 @include background-properties();
         }
         &:nth-of-type(2){
-                background: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+                background: url('../img/bg/purple blur.png');
                 @include background-properties();
         }
         &:nth-of-type(3){
-                background: url('../img/bg-image.jpeg');
+                background: url('../img/bg/orange blur.png');
                 @include background-properties();
+        }
+
+        img{
+                max-height: 200px;
+                margin-bottom: 40px;
+        }
+
+        .work-content{
+                color: white;
+                padding-top: 50px;
+                .text-content{
+                        padding-top: 40px;
+                        padding-right: 50px;
+                }
         }
 }
