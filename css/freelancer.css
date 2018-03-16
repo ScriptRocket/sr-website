@@ -281,6 +281,9 @@ a {
   a:focus, a:hover, a:active {
     color: #5182ac; }
 
+.container {
+  width: 100% !important; }
+
 .btn {
   border-width: 2px; }
 

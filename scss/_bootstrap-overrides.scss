@@ -7,6 +7,9 @@ a {
     color: darken($primary, 10%);
   }
 }
+.container{
+  width: 100% !important;
+}
 
 .btn {
   border-width: 2px;
