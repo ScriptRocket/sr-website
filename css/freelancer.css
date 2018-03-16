@@ -282,6 +282,9 @@ a {
   a:focus, a:hover, a:active {
     color: #5182ac; }
 
+.container {
+  width: 100% !important; }
+
 .btn {
   border-width: 2px; }
 
@@ -338,6 +341,10 @@ a {
     .project .work-content .text-content {
       padding-top: 40px;
       padding-right: 50px; }
+
+#work .container {
+  max-width: 100%;
+  padding: 0px; }
 
 #header {
   background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
