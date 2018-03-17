@@ -3,7 +3,8 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   @include body-font;
-  background-color: rgba(0,0,0,.4);
+  background-color: $white-smoke;
+  border-bottom: 1.5px solid rgba(0,0,0,0.15);
   .navbar-brand {
     color: $black;
   }
@@ -23,7 +24,8 @@
     margin: 0 auto;
     li.nav-item {
       a.nav-link {
-        color:$white;
+        color:black;
+        
         &:hover {
           color: black;
           // background-color: #d3d3d3;
@@ -33,7 +35,7 @@
           color:$white;
         }
         &.active {
-          color: $white;
+          color: #d33939;
         }
       }
     }
@@ -51,6 +53,7 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     background-color: rgba(0,0,0,0.0);
+    border-bottom: 1.5px solid rgba(0,0,0,0);
     .navbar-brand {
       font-size: 2em;
       -webkit-transition: font-size 0.3s;
@@ -60,6 +63,11 @@
     .navbar-nav {
       margin-top: 0;
       color: $white;
+      li.nav-item {
+        a.nav-link {
+          color:white;
+        }
+      }
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
       color: black;
@@ -76,7 +84,7 @@
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: rgba(255,255,255,255);
+    background-color: $white;
     border-bottom: 1.5px solid rgba(0,0,0,0.15);
     .navbar-brand {
       font-size: 1rem;
@@ -86,7 +94,7 @@
     a.nav-link {
       color: $black !important;
       &:hover {
-        color: blue;
+        color: black;
       }
       &:active,
       &:focus {

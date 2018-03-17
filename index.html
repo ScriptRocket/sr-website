@@ -54,10 +54,10 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <!-- <a class="js-scroll-trigger px-0 rounded"  href="#page-top">
-          <img class="img-fluid" src="img/sr logo 2 white.svg" id="logo-shrink" alt="script-rocket" title="launch">
-        </a> -->
-      <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button" data-toggle="collapse"
+      <a class="js-scroll-trigger px-0 rounded" href="#page-top">
+        <img class="img-fluid" src="img/sr logo 2.svg" id="logo-shrink" alt="script-rocket" title="launch" style="margin:0px;">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase rounded" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
@@ -72,7 +72,8 @@
           </li>
           <li class="nav-item" id="nav-image">
             <a class="js-scroll-trigger px-0 rounded" id="logo-expand" href="#page-top">
-              <img class="img-fluid" src="img/sr logo 2 white.svg" alt="script-rocket" title="launch">
+              <img class="img-fluid" src="img/sr logo 2 white.svg" id="white-logo" alt="script-rocket" title="launch">
+              <img class="img-fluid" src="img/sr logo 2.svg" id="black-logo" alt="script-rocket" title="launch">
             </a>
           </li>
           <li class="nav-item">
@@ -89,12 +90,15 @@
   <!-- Header -->
   <header class="masthead bg-primary text-white text-center" id="header">
     <div class="container">
-      <img class="img-fluid mb-5 d-block mx-auto" src="img/sr logo 2 white.svg" alt="" style="width:50%;">
-      <!-- <h1 class="text-uppercase mb-0">-</h1> -->
-      <!-- <hr class="star-light"> -->
-      <h1>{</h1>
-      <h2 class="font-weight-light mb-0"> Launching your ideas to the digital space</h2>
-      <h1>}</h1>
+      <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/sr logo 2 white.svg" alt="" style="width:50%;"> -->
+      <divc class="col-md-12">
+        <h1 class="text-uppercase mb-0 sr-div">script rocket</h1>
+      </div>
+      <div class="col-md-12">
+        <h1>{</h1>
+          <h2 class="font-weight-light mb-0 "> Launching your ideas to the digital space</h2>
+          <h1>}</h1>
+      </div>
     </div>
   </header>
   <!-- NOT Footer (Just using the footer properties ;)  save for social -->
@@ -175,7 +179,7 @@
     <div class="container"> 
     <h2 class="text-center mb-0">Our Work</h2>
     <div>
-      <div class="project col-lg-12 ml-auto" style="padding:0rem; margin:0rem; background-color:rgb(216, 68, 48); height:350px;">
+      <div class="project col-lg-12 ml-auto" style="padding:0rem; margin:0rem; height:350px;">
         <div class="col-xs-12 col-md-offset-6">
           <!-- 1 -->
           <div class="row work-content">
@@ -189,7 +193,7 @@
           </div>
         </div>
       </div>
-      <div class="project col-lg-12 mr-auto" style="padding:0rem; margin:0rem; background-color:rgb(72, 121, 224); height:350px;">
+      <div class="project col-lg-12 mr-auto" style="padding:0rem; margin:0rem; height:350px;">
         <!-- 2 -->
         <div class="row  work-content">
           <div class="col-lg-6 text-right ">
@@ -201,7 +205,7 @@
           </div>
         </div>
       </div>
-      <div class="project col-lg-12 mr-auto" style="padding:0rem; margin:0rem; background-color:rgb(80, 133, 80); max-height:350px; min-height: 150px; height:auto">
+      <div class="project col-lg-12 mr-auto" style="padding:0rem; margin:0rem; height:350px">
         <!-- 3 -->
         <div class="row work-content">
           <div class="col-lg-6 text-right text-content">
@@ -209,7 +213,7 @@
             <p>Making life easier for students and faculty</p>
           </div>
           <div class="col-lg-6 text-left">
-            <img class="img-fluid" src="img/work/metroapp.png">
+            <img class="img-fluid" id="third-img" src="img/work/metroapp.png">
           </div>
         </div>
       </div>
@@ -247,14 +251,12 @@
     </div>
   </section>
 
-  <!-- Contact Section 
+  <!--Contact Section -->
   <section id="contact">
     <div class="container">
       <h2 class="text-center  text-secondary mb-0">Contact Us!</h2>
       <div class="row">
         <div class="col-lg-8 mx-auto">
-           To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. 
-          The form should work on most web servers, but if the form is not working you may need to configure your web server differently. 
           <form name="sentMessage" id="contactForm" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -293,7 +295,7 @@
         </div>
       </div>
     </div>
-  </section>-->
+  </section>
 
   <div class="copyright py-4 text-center text-white">
     <div class="container">
