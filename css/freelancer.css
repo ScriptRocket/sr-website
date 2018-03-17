@@ -211,7 +211,7 @@ header.masthead {
     .portfolio .img-fluid {
       width: 170px; } }
   .portfolio p {
-    font-family: "Calibri";
+    font-family: "gravity";
     font-size: 18px;
     margin-top: 15px; }
   .portfolio h2 {
@@ -345,6 +345,9 @@ a {
 #work .container {
   max-width: 100%;
   padding: 0px; }
+
+#work h2 {
+  padding-bottom: 1.5rem; }
 
 #header {
   background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
