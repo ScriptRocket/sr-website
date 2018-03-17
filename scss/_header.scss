@@ -3,5 +3,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-
+    .sr-div{
+        font-size: 8rem;
+    }
+}
+@media(min-width:1200px) {
+    .sr-div{
+        font-size: 4rem;
+    }
+}
+@media(min-width:450px) {
+    .sr-div{
+        font-size: 2rem;
+    }
 }
