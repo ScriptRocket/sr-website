@@ -4,7 +4,12 @@
     background-size: cover;
 
     .sr-div{
-        font-size: 8rem;
+        font-size: 6rem;
+    }
+    @media(max-width:991px) {
+        .sr-div{
+            display:table;
+        }
     }
 }
 @media(min-width:1200px) {
@@ -12,6 +17,8 @@
         font-size: 4rem;
     }
 }
+
+
 @media(min-width:450px) {
     .sr-div{
         font-size: 2rem;
