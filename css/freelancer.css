@@ -384,7 +384,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover; }
   #header .sr-div {
-    font-size: 8rem; }
+    font-size: 6rem; }
+  @media (max-width: 991px) {
+    #header .sr-div {
+      display: table; } }
 
 @media (min-width: 1200px) {
   .sr-div {
