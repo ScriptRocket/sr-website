@@ -327,12 +327,14 @@ a {
     background: url("../img/bg/wordpresstemp2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom; }
+    background-position: bottom;
+    display: table; }
   .project:nth-of-type(2) {
     background: url("../img/bg/purple blur.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom; }
+    background-position: bottom;
+    display: table; }
   .project:nth-of-type(3) {
     background: url("../img/bg/orange blur.png");
     background-size: cover;
