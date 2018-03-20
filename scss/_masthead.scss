@@ -20,14 +20,19 @@ header.masthead {
     height: 400px;
   }
   @media (min-width: 992px) {
-    header.masthead {
+    header.masthead{
       height: 50vh;
     }
   }
-  
-    @media (min-width: 300px) and (max-width: 780px) {
-      img{
-        height: 50vh;
-      }   
+  //doesnt work -- landscape mode
+  @media screen and (orientation: landscape){
+    header.masthead{
+      padding-top: calc(150 + 2rem);
+    }
+  }
+  @media (min-width: 300px) and (max-width: 780px) {
+    img{
+      height: 50vh;
+    }   
   }
 }

@@ -3,24 +3,67 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    //title sizing
     .sr-div{
         font-size: 6rem;
     }
-    @media(max-width:991px) {
-        .sr-div{
-            display:table;
-        }
-    }
-}
-@media(min-width:1200px) {
-    .sr-div{
-        font-size: 4rem;
-    }
-}
 
+    //curly braces 
+    .sr-curly{
+        font-size: 2.5rem;
+    }
 
-@media(min-width:450px) {
-    .sr-div{
+    //launch phrase 
+    .sr-phrase{
         font-size: 2rem;
     }
+
+    @media(max-width:1200px) {
+        .sr-div{
+            font-size: 4rem;
+        }
+    }
+    @media(max-width:767px) {
+        .sr-div{
+            font-size: 3rem;
+        }
+        .sr-phrase{
+            font-size: 1.4rem;
+        }
+        .sr-curly{
+            font-size: 1.5rem;
+        }
+    }
+    @media(max-width:500px) {
+        .sr-div{
+            font-size: 2.5rem;
+        }
+        .sr-phrase{
+            font-size: 1rem;
+        }
+        .sr-curly{
+            font-size: 1.2rem;
+        }
+    }
+    @media(max-width:518px) {
+        .sr-phrase{
+            font-size: 1.3rem;
+        }
+    }
+    @media(max-width:450px) {
+        .sr-div{
+            font-size: 2rem;
+        }
+        .sr-phrase{
+            font-size: 0.8rem;
+        }
+        .sr-curly{
+            font-size: 1rem;
+        }
+    }
+    @media(max-width: 320px){
+        .sr-div{
+            font-size: 1rem;
+        }
+    }    
 }
