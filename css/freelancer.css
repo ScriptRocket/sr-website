@@ -3,6 +3,18 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+@font-face {
+  font-family: 'alcubierreregular';
+  src: url("../fonts/Alcubierre/Alcubierre.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gravity';
+  src: url("../fonts/gravity/Gravity-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   font-family: 'Lato'; }
 
@@ -94,7 +106,7 @@ section {
 .about p {
   text-align: left;
   margin-left: 25px;
-  font-family: "Lato"; }
+  font-family: "alcubierreregular"; }
 
 .about h3 {
   padding-top: 2rem; }
@@ -217,11 +229,11 @@ header.masthead {
     .portfolio .img-fluid {
       width: 170px; } }
   .portfolio p {
-    font-family: "Calibri";
+    font-family: "gravity";
     font-size: 18px;
     margin-top: 15px; }
   .portfolio h2 {
-    font-family: "Calibri"; }
+    font-family: "gravity"; }
   .portfolio .container {
     padding-right: 20px;
     padding-left: 20px; }
