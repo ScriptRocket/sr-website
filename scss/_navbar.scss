@@ -3,6 +3,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   @include body-font;
+  font-family: 'Calibri', $font-coves; //, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: $white-smoke;
   border-bottom: 1.5px solid rgba(0,0,0,0.15);
   .navbar-brand {
@@ -77,7 +78,7 @@
         color: white;
        }
        &:hover{
-        background-color: #e98484
+        //background-color: #e98484
        }
     }
   }
@@ -99,8 +100,8 @@
         color: black;
       }
       &.active {
-        background-color: #d33939;
-        color: white !important;
+        // background-color: #d33939;
+        color: #d33939 !important;
 
       }
     }

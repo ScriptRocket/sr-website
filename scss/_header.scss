@@ -2,7 +2,10 @@
     background: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-repeat: no-repeat;
     background-size: cover;
-
+   
+    h1{
+        font-family: $font-coves;
+    }
     //title sizing
     .sr-div{
         font-size: 6rem;

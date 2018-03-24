@@ -1,6 +1,7 @@
 // Variables
 @import 'fonts.scss';
 
+//colors
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -12,12 +13,20 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
-$white-smoke: #f5f5f5 !default;
-$font-alcubi: 'alcubierreregular';
-$font-gravity: 'gravity';
 
-$font-style: $font-alcubi !default;
-$secondary-font: $font-gravity; 
+$white-smoke: #f5f5f5 !default;
+$rocket-red: #d33939 !default;
 
 $primary: #739bbd !default;
 $secondary: rgb(36, 36, 36) !default;
+
+
+//fonts
+$font-alcubi: 'alcubierreregular' !default;
+$font-gravity: 'gravity' !default;
+$font-coves: 'coves' !default;
+$font-simple: 'simplicia' !default;
+$font-lato: 'Lato' !default;
+
+$font-style: 'Lato' !default;
+$secondary-font: 'Calibri' !default; 

@@ -15,6 +15,25 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'simplicia';
+  src: url("../fonts/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA Typeface.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'coves';
+  src: url("../fonts/Coves/Coves light.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/lato/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/lato/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/lato/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/lato/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/lato/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/lato/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   font-family: 'Lato'; }
 
@@ -106,7 +125,7 @@ section {
 .about p {
   text-align: left;
   margin-left: 25px;
-  font-family: "alcubierreregular"; }
+  font-family: "Lato"; }
 
 .about h3 {
   padding-top: 2rem; }
@@ -115,6 +134,7 @@ section {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-family: 'Lato';
+  font-family: "Calibri", "coves";
   background-color: #f5f5f5;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.15); }
   #mainNav .navbar-brand {
@@ -164,8 +184,6 @@ section {
       font-size: 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        background-color: #e98484; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -179,8 +197,7 @@ section {
     #mainNav.navbar-shrink a.nav-link:active, #mainNav.navbar-shrink a.nav-link:focus {
       color: black; }
     #mainNav.navbar-shrink a.nav-link.active {
-      background-color: #d33939;
-      color: white !important; } }
+      color: #d33939 !important; } }
 
 header.masthead {
   padding-top: calc(300px + 2rem);
@@ -227,11 +244,11 @@ header.masthead {
     .portfolio .img-fluid {
       width: 170px; } }
   .portfolio p {
-    font-family: "gravity";
+    font-family: "Calibri";
     font-size: 18px;
     margin-top: 15px; }
   .portfolio h2 {
-    font-family: "gravity"; }
+    font-family: "Calibri"; }
   .portfolio .container {
     padding-right: 20px;
     padding-left: 20px; }
@@ -398,6 +415,8 @@ a {
   background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
   background-repeat: no-repeat;
   background-size: cover; }
+  #header h1 {
+    font-family: "coves"; }
   #header .sr-div {
     font-size: 6rem; }
   #header .sr-curly {
@@ -434,3 +453,34 @@ a {
   @media (max-width: 320px) {
     #header .sr-div {
       font-size: 1rem; } }
+
+@font-face {
+  font-family: 'alcubierreregular';
+  src: url("../fonts/Alcubierre/Alcubierre.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'gravity';
+  src: url("../fonts/gravity/Gravity-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'simplicia';
+  src: url("../fonts/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA Typeface.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'coves';
+  src: url("../fonts/Coves/Coves light.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/lato/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/lato/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/lato/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/lato/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/lato/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/lato/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
