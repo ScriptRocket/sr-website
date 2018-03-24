@@ -28,7 +28,6 @@
         
         &:hover {
           color: black;
-          // background-color: #d3d3d3;
         }
         &:active,
         &:focus {
@@ -65,19 +64,20 @@
       color: $white;
       li.nav-item {
         a.nav-link {
-          color:white;
+         // color:white;
         }
       }
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: black;
+      color: white;
       font-size: 1rem;
-      //  background: rgba(0,0,0,0.3);
         &:active,
        &:focus,
        &:hover{
-        color: black;
-        //  background: rgba(0,0,0,0.5);
+        color: white;
+       }
+       &:hover{
+        background-color: #e98484
        }
     }
   }
@@ -88,20 +88,20 @@
     border-bottom: 1.5px solid rgba(0,0,0,0.15);
     .navbar-brand {
       font-size: 1rem;
-      color: $white;
       width: 25%;
     }
     a.nav-link {
-      color: $black !important;
       &:hover {
-        color: black;
+        color: #d33939 !important;
       }
       &:active,
       &:focus {
         color: black;
       }
       &.active {
-        color: #d33939 !important;
+        background-color: #d33939;
+        color: white !important;
+
       }
     }
   }
