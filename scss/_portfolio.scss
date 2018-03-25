@@ -45,4 +45,9 @@
     margin-right: auto;
   }
 
+  @media (max-width: 450px){
+    .container{
+      margin-bottom: 2rem;
+    }
+  }
 }

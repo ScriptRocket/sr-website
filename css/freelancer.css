@@ -130,9 +130,15 @@ section {
 .about h3 {
   padding-top: 2rem; }
 
+@media (max-width: 768px) {
+  .about .shrink-tab-about {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto; } }
+
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   font-family: 'Lato';
   font-family: "Calibri", "coves";
   background-color: #f5f5f5;
@@ -143,7 +149,7 @@ section {
     width: 120px;
     margin: 5px 20px 0 20px; }
   #mainNav #logo-shrink {
-    width: 100px; }
+    width: 75px; }
   #mainNav .hidden {
     display: none; }
   #mainNav .navbar-nav {
@@ -256,6 +262,9 @@ header.masthead {
     max-width: 1070px;
     margin-left: auto;
     margin-right: auto; }
+  @media (max-width: 450px) {
+    .portfolio .container {
+      margin-bottom: 2rem; } }
 
 .floating-label-form-group {
   position: relative;
@@ -445,7 +454,7 @@ a {
       font-size: 1.3rem; } }
   @media (max-width: 450px) {
     #header .sr-div {
-      font-size: 2rem; }
+      font-size: 2.95rem; }
     #header .sr-phrase {
       font-size: 0.8rem; }
     #header .sr-curly {

@@ -55,7 +55,8 @@
     }
     @media(max-width:450px) {
         .sr-div{
-            font-size: 2rem;
+            //was previously 2rem with lato font
+            font-size: 2.95rem;
         }
         .sr-phrase{
             font-size: 0.8rem;

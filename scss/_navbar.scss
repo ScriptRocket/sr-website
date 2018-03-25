@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   @include body-font;
   font-family: 'Calibri', $font-coves; //, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: $white-smoke;
@@ -14,7 +14,7 @@
     margin: 5px 20px 0 20px;
   }
   #logo-shrink{
-    width: 100px;
+    width: 75px;
   }
   .hidden{
     display: none;
