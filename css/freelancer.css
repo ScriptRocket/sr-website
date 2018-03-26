@@ -306,6 +306,8 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 2rem;
   background-color: #242424;
   color: #fff; }
+  .footer #copy-symbol {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
 .copyright {
   background-color: #0b0b0b; }
