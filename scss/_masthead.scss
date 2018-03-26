@@ -20,16 +20,23 @@ header.masthead {
     height: 400px;
   }
   @media (min-width: 992px) {
-    header.masthead{
       height: 50vh;
-    }
   }
-  //doesnt work -- landscape mode
-  @media screen and (orientation: landscape){
-    header.masthead{
-      padding-top: calc(150 + 2rem);
-    }
+  //Any device in landscape mode
+  @media screen  
+    and (max-height: 800px) 
+    and (orientation: landscape){
+      padding-top: 150px;
   }
+
+  //Ipad Pro Tablets in Landscape
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    padding-top: 150px;
+}
   @media (min-width: 300px) and (max-width: 780px) {
     img{
       height: 50vh;

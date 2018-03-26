@@ -222,11 +222,14 @@ header.masthead {
   header.masthead img {
     height: 400px; }
   @media (min-width: 992px) {
-    header.masthead header.masthead {
+    header.masthead {
       height: 50vh; } }
-  @media screen and (orientation: landscape) {
-    header.masthead header.masthead {
-      padding-top: calc(150 + 2rem); } }
+  @media screen and (max-height: 800px) and (orientation: landscape) {
+    header.masthead {
+      padding-top: 150px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+    header.masthead {
+      padding-top: 150px; } }
   @media (min-width: 300px) and (max-width: 780px) {
     header.masthead img {
       height: 50vh; } }
