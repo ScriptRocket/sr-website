@@ -213,6 +213,8 @@ header.masthead {
     display: inline;
     padding-left: 15px;
     padding-right: 15px; }
+  header.masthead #header-text {
+    display: inline-block; }
   header.masthead h2 {
     font-size: 2rem;
     font-family: 'Lato';
@@ -221,18 +223,17 @@ header.masthead {
     top: -2px; }
   header.masthead img {
     height: 400px; }
-  @media (min-width: 992px) {
-    header.masthead {
-      height: 50vh; } }
   @media screen and (max-height: 800px) and (orientation: landscape) {
     header.masthead {
       padding-top: 150px; } }
-  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     header.masthead {
-      padding-top: 150px; } }
-  @media (min-width: 300px) and (max-width: 780px) {
-    header.masthead img {
-      height: 50vh; } }
+      padding-top: 350px; } }
+  @media (min-width: 300px) and (max-width: 780px) and (orientation: portrait) {
+    header.masthead {
+      padding-top: 40vh; }
+      header.masthead img {
+        height: 50vh; } }
 
 .portfolio {
   margin-bottom: -15px; }

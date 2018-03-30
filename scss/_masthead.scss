@@ -9,6 +9,9 @@ header.masthead {
     padding-left: 15px;
     padding-right: 15px;
   }
+  #header-text{
+    display: inline-block;
+  }
   h2 {
     font-size: 2rem;
     @include body-font;
@@ -20,7 +23,7 @@ header.masthead {
     height: 400px;
   }
   @media (min-width: 992px) {
-      height: 50vh;
+      //height: 50vh;
   }
   //Any device in landscape mode
   @media screen  
@@ -34,10 +37,11 @@ header.masthead {
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px) 
   and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-    padding-top: 150px;
+  and (-webkit-min-device-pixel-ratio: 2) {
+    padding-top: 350px;
 }
-  @media (min-width: 300px) and (max-width: 780px) {
+  @media (min-width: 300px) and (max-width: 780px) and (orientation: portrait) {
+    padding-top: 40vh;
     img{
       height: 50vh;
     }   
