@@ -1,41 +1,42 @@
 // Styling for the navbar
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   @include body-font;
-  font-family: 'Calibri', $font-coves; //, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $font-lato, 'Calibri', $font-coves; //, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: $white-smoke;
   border-bottom: 1.5px solid rgba(0,0,0,0.15);
   .navbar-brand {
     color: $black;
   }
   img{
-    width: 120px;
+    width: 100px;
     margin: 5px 20px 0 20px;
   }
   #logo-shrink{
-    width: 100px;
+    width: 65px;
   }
   .hidden{
     display: none;
   }
+  //mobile view menu
   .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
     margin: 0 auto;
     li.nav-item {
       a.nav-link {
-        color:black;
+        color: $black;
         
         &:hover {
-          color: black;
+          color: $gray-200;
         }
         &:active,
         &:focus {
           color:$black;
         }
         &.active {
-          color: #d33939;
+          color: $rocket-red;
         }
       }
     }
@@ -45,6 +46,7 @@
     padding: 0.8rem;
   }
 }
+//desktop view + high rez tablet
 @media(min-width:992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -62,26 +64,14 @@
     }
     .navbar-nav {
       margin-top: 0;
-      color: $white;
       li.nav-item {
         a.nav-link {
-         // color:white;
+        color:white;
         }
       }
     }
-    .navbar-nav > li.nav-item > a.nav-link.active {
-      color: white;
-      font-size: 1rem;
-        &:active,
-       &:focus,
-       &:hover{
-        color: white;
-       }
-       &:hover{
-        //background-color: #e98484
-       }
-    }
   }
+  //desktop view when menu turns white
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -91,18 +81,24 @@
       font-size: 1rem;
       width: 25%;
     }
+    .navbar-nav {
+      li.nav-item {
+        a.nav-link {
+        color:black;
+        }
+      }
+    }
     a.nav-link {
+      color: black ;
       &:hover {
         color: #d33939 !important;
       }
       &:active,
       &:focus {
-        color: black;
+        color: black !important;
       }
       &.active {
-        // background-color: #d33939;
         color: #d33939 !important;
-
       }
     }
   }

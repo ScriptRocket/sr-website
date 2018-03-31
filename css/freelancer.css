@@ -71,7 +71,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #739bbd; }
+  background-color: #000; }
 
 hr.star-dark {
   border-color: #242424; }
@@ -131,19 +131,19 @@ section {
   padding-top: 2rem; }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   font-family: 'Lato';
-  font-family: "Calibri", "coves";
+  font-family: "Lato", "Calibri", "coves";
   background-color: #f5f5f5;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.15); }
   #mainNav .navbar-brand {
     color: #000; }
   #mainNav img {
-    width: 120px;
+    width: 100px;
     margin: 5px 20px 0 20px; }
   #mainNav #logo-shrink {
-    width: 100px; }
+    width: 65px; }
   #mainNav .hidden {
     display: none; }
   #mainNav .navbar-nav {
@@ -151,9 +151,9 @@ section {
     letter-spacing: 0.0625rem;
     margin: 0 auto; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: black; }
+      color: #000; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: black; }
+        color: #e9ecef; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #000; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -177,12 +177,8 @@ section {
       -moz-transition: font-size 0.3s;
       transition: font-size 0.3s; }
     #mainNav .navbar-nav {
-      margin-top: 0;
-      color: #fff; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: white;
-      font-size: 1rem; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      margin-top: 0; }
+      #mainNav .navbar-nav li.nav-item a.nav-link {
         color: white; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -192,12 +188,16 @@ section {
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1rem;
       width: 25%; }
-    #mainNav.navbar-shrink a.nav-link:hover {
-      color: #d33939 !important; }
-    #mainNav.navbar-shrink a.nav-link:active, #mainNav.navbar-shrink a.nav-link:focus {
+    #mainNav.navbar-shrink .navbar-nav li.nav-item a.nav-link {
       color: black; }
-    #mainNav.navbar-shrink a.nav-link.active {
-      color: #d33939 !important; } }
+    #mainNav.navbar-shrink a.nav-link {
+      color: black; }
+      #mainNav.navbar-shrink a.nav-link:hover {
+        color: #d33939 !important; }
+      #mainNav.navbar-shrink a.nav-link:active, #mainNav.navbar-shrink a.nav-link:focus {
+        color: black !important; }
+      #mainNav.navbar-shrink a.nav-link.active {
+        color: #d33939 !important; } }
 
 header.masthead {
   padding-top: calc(300px + 2rem);
@@ -296,7 +296,7 @@ header.masthead {
   opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-  color: #739bbd; }
+  color: #000; }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
@@ -311,9 +311,9 @@ form .row:first-child .floating-label-form-group {
   background-color: #0b0b0b; }
 
 a {
-  color: #739bbd; }
+  color: #000; }
   a:focus, a:hover, a:active {
-    color: #5182ac; }
+    color: black; }
 
 .container {
   width: 100% !important; }
@@ -325,23 +325,23 @@ a {
   border-width: 2px; }
 
 .bg-primary {
-  background-color: #739bbd !important; }
+  background-color: #000 !important; }
 
 .bg-secondary {
   background-color: #242424 !important; }
 
 .text-primary {
-  color: #739bbd !important; }
+  color: #000 !important; }
 
 .text-secondary {
   color: #242424 !important; }
 
 .btn-primary {
-  background-color: #739bbd;
-  border-color: #739bbd; }
+  background-color: #000;
+  border-color: #000; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #5182ac;
-    border-color: #5182ac; }
+    background-color: black;
+    border-color: black; }
 
 .btn-secondary {
   background-color: #242424;
@@ -415,8 +415,6 @@ a {
   background: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
   background-repeat: no-repeat;
   background-size: cover; }
-  #header h1 {
-    font-family: "coves"; }
   #header .sr-div {
     font-size: 6rem; }
   #header .sr-curly {
@@ -453,34 +451,3 @@ a {
   @media (max-width: 320px) {
     #header .sr-div {
       font-size: 1rem; } }
-
-@font-face {
-  font-family: 'alcubierreregular';
-  src: url("../fonts/Alcubierre/Alcubierre.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'gravity';
-  src: url("../fonts/gravity/Gravity-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'simplicia';
-  src: url("../fonts/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA Typeface.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'coves';
-  src: url("../fonts/Coves/Coves light.otf") format("opentype");
-  font-weight: lighter;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../fonts/lato/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/lato/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/lato/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/lato/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/lato/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/lato/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
