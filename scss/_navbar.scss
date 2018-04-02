@@ -1,4 +1,4 @@
-// Styling for the navbar
+// Styling for the navbar, default
 #mainNav {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -46,7 +46,11 @@
     padding: 0.8rem;
   }
 }
+<<<<<<< HEAD
 //desktop view + high rez tablet
+=======
+//For non-mobile windows
+>>>>>>> 9e3877a16f2b37fced45c99ac78cfcedb9788a14
 @media(min-width:992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -71,11 +75,15 @@
       }
     }
   }
+<<<<<<< HEAD
   //desktop view when menu turns white
+=======
+  //Nav-bar changes when browser window scrolls past header
+>>>>>>> 9e3877a16f2b37fced45c99ac78cfcedb9788a14
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: $white;
+    background-color: white;
     border-bottom: 1.5px solid rgba(0,0,0,0.15);
     .navbar-brand {
       font-size: 1rem;
