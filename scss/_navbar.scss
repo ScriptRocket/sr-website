@@ -46,11 +46,7 @@
     padding: 0.8rem;
   }
 }
-<<<<<<< HEAD
 //desktop view + high rez tablet
-=======
-//For non-mobile windows
->>>>>>> 9e3877a16f2b37fced45c99ac78cfcedb9788a14
 @media(min-width:992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -75,11 +71,7 @@
       }
     }
   }
-<<<<<<< HEAD
-  //desktop view when menu turns white
-=======
   //Nav-bar changes when browser window scrolls past header
->>>>>>> 9e3877a16f2b37fced45c99ac78cfcedb9788a14
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
