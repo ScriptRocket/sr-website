@@ -2,10 +2,7 @@
     background: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-repeat: no-repeat;
     background-size: cover;
-   
-    h1{
-        font-family: $font-coves;
-    }
+
     //title sizing
     .sr-div{
         font-size: 6rem;
@@ -55,8 +52,7 @@
     }
     @media(max-width:450px) {
         .sr-div{
-            //was previously 2rem with lato font
-            font-size: 2.95rem;
+            font-size: 2rem;
         }
         .sr-phrase{
             font-size: 0.8rem;
