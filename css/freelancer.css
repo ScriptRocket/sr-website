@@ -137,6 +137,8 @@ section {
   font-family: "Lato", "Calibri", "coves";
   background-color: #f5f5f5;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.15); }
+  #mainNav .hidden {
+    display: none; }
   #mainNav .navbar-brand {
     color: #000; }
   #mainNav img {
@@ -144,8 +146,6 @@ section {
     margin: 5px 20px 0 20px; }
   #mainNav #logo-shrink {
     width: 65px; }
-  #mainNav .hidden {
-    display: none; }
   #mainNav .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
