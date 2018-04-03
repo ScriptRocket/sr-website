@@ -44,5 +44,10 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  @media(max-width: 500px){
+    margin-bottom: -9rem;
+    .container{
+      margin-bottom: 40px;
+    }
+  }
 }
