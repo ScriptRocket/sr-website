@@ -6,7 +6,7 @@
   padding-top: 0rem;
   padding-bottom: 0rem;
   @include body-font;
-  font-family: $font-lato, 'Calibri', $font-coves; //, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $font-lato, 'Calibri', $font-coves;
   background-color: $white-smoke;
   border-bottom: 1.5px solid rgba(0,0,0,0.15);
   .navbar-brand {
@@ -19,6 +19,7 @@
   #logo-shrink{
     width: 65px;
   }
+
   //mobile view menu (Default colors)
   .navbar-nav {
     margin-top: 1rem;
@@ -46,6 +47,7 @@
     padding: 0.8rem;
   }
 }
+
 //desktop view + high rez tablet
 @media(min-width:992px) {
   #mainNav {
@@ -71,6 +73,7 @@
       }
     }
   }
+  
   //desktop view when menu turns white
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;

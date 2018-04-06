@@ -1,3 +1,4 @@
+// style for header section
 #header{
     background: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-repeat: no-repeat;
@@ -18,6 +19,7 @@
         font-size: 2rem;
     }
 
+    //tablet view
     @media(max-width:1200px) {
         .sr-div{
             font-size: 4rem;
@@ -50,6 +52,8 @@
             font-size: 1.3rem;
         }
     }
+    
+    //phone view
     @media(max-width:450px) {
         .sr-div{
             font-size: 2rem;

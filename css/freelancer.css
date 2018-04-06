@@ -46,40 +46,6 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat'; }
 
-hr.star-light,
-hr.star-dark {
-  max-width: 15rem;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem; }
-
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: FontAwesome;
-  font-size: 2em; }
-
-hr.star-light {
-  border-color: #fff; }
-
-hr.star-light:after {
-  color: #fff;
-  background-color: #000; }
-
-hr.star-dark {
-  border-color: #242424; }
-
-hr.star-dark:after {
-  color: #242424;
-  background-color: white; }
-
 section {
   padding: 6rem 0; }
   section h2 {

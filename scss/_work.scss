@@ -1,9 +1,7 @@
-        .project{
+// Styling for Our Work Section
+.project{
         width: 100%;
         height: 10px;
-        // filter: blur(2px);
-        // overflow: hidden;
-        //blurr images themselves?
         @mixin background-properties(){
                 background-size: cover;
                 background-repeat: no-repeat;
